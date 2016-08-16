@@ -13,6 +13,12 @@ export default Ember.Route.extend({
       });
       article.save();
       this.transitionTo('admin');
+    },
+    delete(article) {
+      if (confirm('Are you sure you want to delete this article?')) {
+        article.destroyRecord();
+        this.transitionTo('admin');
+      }
     }
   }
 });

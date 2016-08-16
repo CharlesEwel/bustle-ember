@@ -3,3 +3,4 @@
 <img src={{model.image}} alt={{model.headline}}>
 <p>{{model.content}}</p>
 {{edit-article article=model edit="edit"}}
+<button class="btn btn-danger" {{action 'delete' model}}>Delete</button>

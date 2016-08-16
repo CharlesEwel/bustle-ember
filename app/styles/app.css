@@ -1,0 +1,14 @@
+#left-carousel-arrow {
+  position: absolute;
+  top: 382px;
+}
+
+#right-carousel-arrow {
+  position: absolute;
+  top: 382px;
+  left: 935px;
+}
+
+#carousel-container {
+  position: relative;
+}
