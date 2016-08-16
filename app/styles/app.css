@@ -1,14 +1,16 @@
-#left-carousel-arrow {
-  position: absolute;
-  top: 382px;
-}
-
-#right-carousel-arrow {
-  position: absolute;
-  top: 382px;
-  left: 935px;
-}
-
-#carousel-container {
+#ember-carousel {
   position: relative;
 }
+ .carousel-images {
+   height: 750px;
+   width: 1024px;
+   position: relative;
+ }
+
+.carousel-images h1 {
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }

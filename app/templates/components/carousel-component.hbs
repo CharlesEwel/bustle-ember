@@ -1,17 +1,16 @@
-{{#carousel-container id="carousel-container" transition-interval=400}}
-  {{#carousel-body}}
-    {{#each articles as |article|}}
-    {{#carousel-item}}
-      <img src={{article.image}} alt={{article.headline}} height=764px />
-    {{/carousel-item}}
-    {{/each}}
-  {{/carousel-body}}
+{{#slick-carousel
+  class="ember-carousel"
+  autoplay=true
+  autoplaySpeed=20000
+  slidesToShow=1
+  slidesToScroll=1
+  dots=true
+  fade=true}}
 
-
-  {{#carousel-arrow id="left-carousel-arrow" direction="left" tagName="button"}}
-    Slide Left
-  {{/carousel-arrow}}
-  {{#carousel-arrow id="right-carousel-arrow" direction="right" tagName="button"}}
-    Slide Right
-  {{/carousel-arrow}}
-{{/carousel-container}}
+  {{#each articles as |article|}}
+    <div class="carousel-images">
+      <h1>{{article.headline}}</h1>
+      <img src={{article.image}}>
+    </div>
+  {{/each}}
+{{/slick-carousel}}
