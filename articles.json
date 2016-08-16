@@ -2,21 +2,25 @@
     "headline": "Fancy Estate Haunted?",
     "content": "Do you believe in ghosts. We believe this fancy estate on the outside of town might be haunted. Perhaps you should come investigate it and see what you find.",
     "author": "Goober Newton",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "category": "news"
   }, {
-    "headline": "President of France to Visit",
-    "content": "The President of France is visiting, this is very exciting for our city. Yay France.",
+    "headline": "President of France to Visit. Will Wear Silly Hat",
+    "content": "The President of France is visiting, this is very exciting for our city. Yay France. He shall don a ceremonial beret as per French custom, it is unclear if he will also be holding a baguette.",
     "author": "Pussy Galore",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+    "category": "fashion"
   }, {
     "headline": "Construction Going On",
     "content": "People are building things, how exciting. This building should be completed around February of next year",
     "author": "Chaz Ewelio",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+    "category": "lifestyle"
   }, {
     "headline": "Another Article",
-    "content": "This is also an article, currently it is not about anything",
+    "content": "This is also an article, currently it is not about anything. Or is it?",
     "author": "Goober Newton",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+    "category": "books"
   }]
 }

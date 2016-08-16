@@ -11,7 +11,8 @@ export default Ember.Component.extend({
         headline: this.get('headline'),
         content: this.get('content'),
         author: this.get('author'),
-        image: this.get('image')
+        image: this.get('image'),
+        category: this.get('category')
       };
       this.set('editArticleForm', false);
       this.sendAction('edit', article, params);

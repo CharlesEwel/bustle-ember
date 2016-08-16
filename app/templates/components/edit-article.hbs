@@ -22,6 +22,11 @@
           {{input value=image id="image" placeholder=article.image}}
         </div>
 
+        <div class="form-group">
+          <label for="category">Category</label>
+          {{input value=category id="category" placeholder=article.category}}
+        </div>
+
         <button {{action 'edit' article}}>Save</button>
       </form>
     </div>

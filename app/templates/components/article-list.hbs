@@ -1,3 +1,10 @@
 {{#each articles as |article|}}
-  {{article-tile article=article}}
+  {{#if (eq filter "all")}}
+    {{article-tile article=article}}
+  {{/if}}
+{{/each}}
+{{#each articles as |article|}}
+  {{#if (eq filter article.category)}}
+    {{article-tile article=article}}
+  {{/if}}
 {{/each}}

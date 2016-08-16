@@ -1,16 +1,18 @@
-{{#slick-carousel
-  class="ember-carousel"
-  autoplay=true
-  autoplaySpeed=20000
-  slidesToShow=1
-  slidesToScroll=1
-  dots=true
-  fade=true}}
+<div class="carousel-parent">
+  {{#slick-carousel
+    class="ember-carousel"
+    autoplay=true
+    autoplaySpeed=20000
+    slidesToShow=1
+    slidesToScroll=1
+    dots=true
+    fade=true}}
 
-  {{#each articles as |article|}}
-    <div class="carousel-images">
-      <h1>{{article.headline}}</h1>
-      <img src={{article.image}}>
-    </div>
-  {{/each}}
-{{/slick-carousel}}
+    {{#each articles as |article|}}
+      <div class="carousel-images">
+        <h1>{{article.headline}}</h1>
+        <img src={{article.image}}>
+      </div>
+    {{/each}}
+  {{/slick-carousel}}
+</div>
