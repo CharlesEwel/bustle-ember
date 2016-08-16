@@ -1,0 +1,7 @@
+<li>
+  {{#link-to 'article' article.id}}
+    <h1>{{article.headline}}</h1>
+    <img src={{article.image}} alt={{article.headline}}>
+  {{/link-to}}
+  <p> by {{article.author}}</p>
+</li>
