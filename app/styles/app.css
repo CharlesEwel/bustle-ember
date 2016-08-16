@@ -1,9 +1,5 @@
-#ember-carousel {
-  position: relative;
-}
-
 .carousel-parent {
-  width: 1024px !important;
+  width: 1024px;
 }
 
  .carousel-images {
